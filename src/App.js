@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {Message} from './Message'
+
+import { HelloWorld } from '../../../Develhope/fullstack/React/esercizio1/src/Component/HelloWorld';
 
 function App() {
   return (
     <div className="App">
-      <Message/> Se uso più volte il component message appare esattamente come l'ho impostato
+      <HelloWorld/> Se uso più volte il component appare esattamente come l'ho impostato
       
     </div>
   );
