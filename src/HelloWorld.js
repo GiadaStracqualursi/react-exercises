@@ -1,4 +1,6 @@
 import React from 'react'
+import { Message } from './Message'
+
 
 
 export class HelloWorld extends React.Component {
@@ -7,7 +9,7 @@ export class HelloWorld extends React.Component {
         return (
         <div>
         <h1>Hello, world</h1>
-        <p>What a beautiful day</p>
+        <p><Message/></p>
         </div>
         )
 }
