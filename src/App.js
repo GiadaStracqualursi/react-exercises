@@ -5,7 +5,7 @@ import {Welcome} from './Welcome'
 function App() {
   return (
     <div className="App">
-      <Welcome  /> 
+      <Welcome age={18} /> 
     </div>
   );
 }
