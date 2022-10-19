@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import { HelloWorld } from '../../../Develhope/fullstack/React/esercizio1/src/Component/HelloWorld';
+import { HelloWorld } from './HelloWorld';
 
 function App() {
   return (
