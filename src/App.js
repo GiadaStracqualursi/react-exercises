@@ -1,13 +1,14 @@
 
 import './App.css';
-import { Counter } from './Counter';
+import { ClickCounter } from './ClickCounter';
 import {Welcome} from './Welcome'
 
 function App() {
   return (
     <div className="App">
       <Welcome name={<strong>Alfio</strong>} age= {16} /> 
-      <Counter />
+      <ClickCounter/>
+
     </div>
   );
 }
