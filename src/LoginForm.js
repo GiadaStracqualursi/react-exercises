@@ -24,7 +24,7 @@ export class LoginForm extends React.Component {
       });
   };
 
-  onLogin = (event) => {
+  Login = (event) => {
     console.log(event)
     const verify = event.target.disabled
     this.setState({
@@ -61,7 +61,7 @@ export class LoginForm extends React.Component {
         />
 
         <button disabled={!this.state.username || !this.state.password} 
-        onClick={this.onLogin}>Login
+        onClick={this.Login}>Login
         </button>
         
       </div>
