@@ -23,7 +23,7 @@ export function UncontrolledLogin(){
         
         <form className="container">
             <h3>Login function</h3>
-            <input  onChange={handleInputChange} value={data.username} name='username' />
+            <input autoFocus onChange={handleInputChange} value={data.username} name='username' />
             <input  onChange={handleInputChange} value={data.password} type ='password' name = 'password' />
             <input  onChange={handleInputChange} value={data.remember} type = 'checkbox' name = 'remember'/>
         </form>
