@@ -45,6 +45,12 @@ export class LoginForm extends React.Component {
   
 
   render() {
+
+    const buttonStyle = {
+      color: "black",
+      backgroundColor: this.state.password.length >= 8 ? "green" : "red"
+    }
+
     return (
       <div>
         <h1>My Form</h1>
@@ -68,7 +74,7 @@ export class LoginForm extends React.Component {
           onChange={this.handleUsernamePasswordChange}
         />
 
-        <button disabled={!this.state.username || !this.state.password} 
+        <button style = {buttonStyle} disabled={!this.state.username || !this.state.password} 
         onClick={this.Login}>Login
         </button>
 
