@@ -17,7 +17,10 @@ function App() {
       <InteractiveWelcome/>
       <LoginForm/>
       <UncontrolledLogin/>
-      <ToDoList names = {['Billy', 'Alfio', 'Sara']}/>
+
+      <div>
+      <ToDoList/>
+      </div>
 
     </div>
   );
