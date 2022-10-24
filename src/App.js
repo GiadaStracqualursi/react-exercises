@@ -2,6 +2,7 @@
 import './App.css';
 import { ClickCounter } from './ClickCounter';
 import { ClickTracker } from './ClickTracker';
+import { Container } from './Container';
 import { InteractiveWelcome } from './InteractiveWelcome';
 import { LoginForm } from './LoginForm';
 import { ToDoList } from './ToDoList';
@@ -18,7 +19,7 @@ function App() {
       <InteractiveWelcome/>
       <LoginForm/>
       <UncontrolledLogin/>
-
+      <Container/>
       <div>
       <ToDoList/>
 

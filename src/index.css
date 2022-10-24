@@ -5,3 +5,10 @@
   background-color: rosybrown; 
   border: 1px solid black;
 }
+
+.container{
+  width:  400px;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid red;
+}

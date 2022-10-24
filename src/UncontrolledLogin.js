@@ -21,7 +21,7 @@ export function UncontrolledLogin(){
 
     return (
         
-        <form className="container">
+        <form>
             <h3>Login function</h3>
             <input autoFocus onChange={handleInputChange} value={data.username} name='username' />
             <input  onChange={handleInputChange} value={data.password} type ='password' name = 'password' />
