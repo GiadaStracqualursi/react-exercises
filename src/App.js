@@ -4,6 +4,7 @@ import { ClickCounter } from './ClickCounter';
 import { ClickTracker } from './ClickTracker';
 import { InteractiveWelcome } from './InteractiveWelcome';
 import { LoginForm } from './LoginForm';
+import { ToDoList } from './ToDoList';
 import { UncontrolledLogin } from './UncontrolledLogin';
 import {Welcome} from './Welcome'
 
@@ -16,6 +17,7 @@ function App() {
       <InteractiveWelcome/>
       <LoginForm/>
       <UncontrolledLogin/>
+      <ToDoList names = {['Billy', 'Alfio', 'Sara']}/>
 
     </div>
   );
