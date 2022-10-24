@@ -19,7 +19,7 @@ function App() {
       <InteractiveWelcome/>
       <LoginForm/>
       <UncontrolledLogin/>
-      <Container/>
+      <Container title= {'Ciao Alfio'}/>
       <div>
       <ToDoList/>
 
