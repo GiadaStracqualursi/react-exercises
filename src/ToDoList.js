@@ -12,6 +12,8 @@ export class ToDoList extends React.Component {
 		event.preventDefault()
 
 		const todo = event.target.elements.todo.value
+    
+    
 
 		this.setState((state) => {
 			return {
