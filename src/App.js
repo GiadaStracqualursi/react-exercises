@@ -3,9 +3,10 @@ import './App.css';
 import { ClickCounter } from './ClickCounter';
 import { ClickTracker } from './ClickTracker';
 import { Container } from './Container';
+import { CounterFunction } from './CounterFunction';
 import { InteractiveWelcome } from './InteractiveWelcome';
 import { LoginForm } from './LoginForm';
-import { Sum } from './Sum';
+
 import { ToDoList } from './ToDoList';
 
 import { UncontrolledLogin } from './UncontrolledLogin';
@@ -23,7 +24,7 @@ function App() {
       <UncontrolledLogin/>
       <Container title= {'Ciao Alfio'}/>
       <WelcomeFunction/>
-      <Sum/>
+      <CounterFunction/>
       <div>
       <ToDoList/>
 
