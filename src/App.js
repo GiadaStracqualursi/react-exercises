@@ -9,6 +9,7 @@ import { ToDoList } from './ToDoList';
 
 import { UncontrolledLogin } from './UncontrolledLogin';
 import {Welcome} from './Welcome'
+import { WelcomeFunction } from './WelcomeFunction';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <LoginForm/>
       <UncontrolledLogin/>
       <Container title= {'Ciao Alfio'}/>
+      <WelcomeFunction/>
       <div>
       <ToDoList/>
 
