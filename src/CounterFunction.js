@@ -1,8 +1,11 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 export function CounterFunction({initialValue = 0}){
 
     const [counter, setCounter] = useState(initialValue)
+
+    useEffect(()=>{}, [counter])
+
     function heandleCounterIncrement(){
         setCounter(c=> c + 1)
 
