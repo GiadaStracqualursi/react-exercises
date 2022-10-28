@@ -15,6 +15,7 @@ import {Welcome} from './Welcome'
 import { WelcomeFunction } from './WelcomeFunction';
 
 function App() {
+
   return (
     <div className="App">
       <Welcome name={<strong>Alfio</strong>} age= {16} /> 
