@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <GitHubUser username={'giadastracqualursi'}/>
+      <GitHubUser username='giadastracqualursi'/>
     
 
       </div>
