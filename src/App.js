@@ -6,12 +6,14 @@ import { CounterFunction } from './CounterFunction';
 
 
 
+
 function App() {
 
   return (
     <div className="App">
       <CarDetails/>
       <CounterFunction />
+      
     
 
       </div>
