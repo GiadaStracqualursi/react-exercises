@@ -45,12 +45,27 @@ export class ToDoList extends React.Component {
 					<button type="submit">Submit</button>
 				</form>
 
-				<ul>
-					{this.state.todos.map((todo, index) => (
-						<li key={index}>{todo}  <button onClick={() => this.handleClick(index)}>X</button></li>
-					))}
-				</ul>
+				{this.props.render(this.state.todos, this.handleClick)}
+				
 			</div>
+		)
+	}
+}
+
+export class TodoListContainer extends React.Component {
+	render() {
+		return (
+			<ToDoList
+				render={(todos, handleClick) => {
+					return (
+						<ul>
+							{todos.map((todo, index) => (
+								<li key={index}>{todo} <button onClick={() => handleClick(index)}>X</button></li>
+							))}
+						</ul>
+					)
+				}}
+			/>
 		)
 	}
 }
