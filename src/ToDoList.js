@@ -22,11 +22,17 @@ export class ToDoList extends React.Component {
 		})
 	}
 
+	handleReset = () => {
+		this.setState({
+			todos: [],
+		})
+	}
+
 	render() {
 		return (
 			<div>
                 <h3>Insegnamenti</h3>
-				<form onSubmit={this.handleSubmit}>
+				<form onSubmit={this.handleSubmit} onReset={this.handleReset}>
 					<input name="todo" />
 					<button type="submit">Submit</button>
 				</form>
