@@ -28,6 +28,14 @@ export class ToDoList extends React.Component {
 		})
 	}
 
+	handleClick = (element) => {
+		this.setState((state) => {
+			return {
+				todos: state.todos.filter((todo, index) => index !== element),
+			}
+		})
+	}
+
 	render() {
 		return (
 			<div>
@@ -39,7 +47,7 @@ export class ToDoList extends React.Component {
 
 				<ul>
 					{this.state.todos.map((todo, index) => (
-						<li key={index}>{todo}</li>
+						<li key={index}>{todo}  <button onClick={() => this.handleClick(index)}>X</button></li>
 					))}
 				</ul>
 			</div>
