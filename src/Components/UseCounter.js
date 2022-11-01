@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 
-export function useCounter() {
+export function UseCounter() {
 	const [counter, setCounter] = useState(0)
 
 	const handleIncrement = useCallback(function handleIncrement() {
