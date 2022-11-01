@@ -1,5 +1,4 @@
 
-
 import { useGitHubUser } from "./useGitHubUser";
 
 
@@ -7,8 +6,8 @@ export function GitHubUser({username}){
 
 const {data, loading, error}= useGitHubUser(username)
 
-
 function handleGetUserData(){
+    // eslint-disable-next-line no-undef
     onFetchUser(username)
 }
 
