@@ -15,10 +15,14 @@ export function App() {
         <Route path="counter" element= {<CounterFunction/>} />
         <Route path="/users/:username" element= {<GitHubUser/>} />
       </Routes>
-    
+
+      <hr/>
       <Link to= '/'>Welcome</Link> 
+      <hr/>
       <Link to= '/counter'>Count</Link>
+      <hr/>
       <Link to= '/users/Giada S'>User</Link>
+      <hr/>
       
     </div>
   );
