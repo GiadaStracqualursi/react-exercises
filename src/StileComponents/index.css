@@ -1,9 +1,15 @@
-
+.app{
+  display: flex;
+  flex-direction: column;
+ 
+}
 
 .welcome{
   width: 400px;
+ 
   background-color: rosybrown; 
   border: 1px solid black;
+
 }
 
 .container{

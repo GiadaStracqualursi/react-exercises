@@ -1,27 +1,14 @@
+import { WelcomeFunction } from "././Components/WelcomeFunction";
+import "././StileComponents/index.css";
+import { Routes } from "react-router-dom";
+import { Route } from "react-router-dom";
 
-import './App.css';
-import { CarDetails } from './CarDetails';
-import { CounterFunction } from './CounterFunction';
-
-
-
-
-
-
-function App() {
-
+export function App() {
   return (
     <div className="App">
-      <CarDetails/>
-      <CounterFunction />
-      
-      
-    
-
-      </div>
-
-    
+      <Routes>
+        <Route path="/" element={ <WelcomeFunction name='John'/>} />
+      </Routes>
+    </div>
   );
 }
-
-export default App;
