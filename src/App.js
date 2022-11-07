@@ -33,7 +33,7 @@ export function App() {
       <hr/>
       <Link to= '/counter'>Count</Link>
       <hr/>
-      <Link to= '/users'>Users</Link>
+      <Link to= '/users' >Users</Link>
       <hr/>
       
     </div>
