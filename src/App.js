@@ -6,7 +6,7 @@ import { CounterFunction } from "././Components/CounterFunction";
 
 import { Link } from "react-router-dom";
 
-import { GitHubUserSwr } from "./GitHubUsersSwr";
+import { GitHubUsersSwr } from "./GitHubUsersSwr";
 
 
 export function App() {
@@ -18,7 +18,7 @@ export function App() {
         <Route path="counter" element= {<CounterFunction/>} />
    
         <Route index element={<div>Add a user and select it</div>} />
-        <Route path='users'element={<GitHubUserSwr/>}/>
+        <Route path='users'element={<GitHubUsersSwr/>}/>
         
 		
         <Route path='*' element={<div><p>Not Found</p> 
